@@ -1,0 +1,24 @@
+<html>
+
+<head>
+    <title>
+        START
+    </title>
+    <link rel="stylesheet" href="styles/default.css" type="text/css">
+    <script type="text/javascript" src="scripts/txtElaboration.js"></script>
+</head>
+
+<body>
+    <h1>Inserisci un testo di 1000-2000 parole e il nome del file</h1>
+    <label>Nome del file:</label>
+    <input type="text" id="nomeFile" />
+    <br>
+    <label for="txt">Testo:</label>
+    <textarea id="txt" cols="10" rows="10"></textarea>
+    <br>
+    <input type="submit" value="Invia" onclick="receiveElements()" />
+    <br>
+    <p>Il risultato del conteggio &egrave;: </p><input type="text" id="result" readonly>
+</body>
+
+</html>
